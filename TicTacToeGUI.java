@@ -257,6 +257,18 @@ public class TicTacToeGUI extends javax.swing.JFrame {
     }
     
     private void reset(){
+        
+        jButton1.setEnabled(true);
+        jButton2.setEnabled(true);
+        jButton3.setEnabled(true);
+        jButton4.setEnabled(true);
+        jButton5.setEnabled(true);
+        jButton6.setEnabled(true);
+        jButton7.setEnabled(true);
+        jButton8.setEnabled(true);
+        jButton9.setEnabled(true);
+        
+        
         jButton1.setText(" ");
         jButton2.setText(" ");
         jButton3.setText(" ");
@@ -483,6 +495,7 @@ public class TicTacToeGUI extends javax.swing.JFrame {
            jButton8.setForeground(Color.green); 
         }
         determineTurn();
+        jButton8.setEnabled(false);
         status();
     }//GEN-LAST:event_jButton8ActionPerformed
 
@@ -495,6 +508,7 @@ public class TicTacToeGUI extends javax.swing.JFrame {
            jButton1.setForeground(Color.green); 
         }
         determineTurn();
+        jButton1.setEnabled(false);
         status();
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -507,6 +521,7 @@ public class TicTacToeGUI extends javax.swing.JFrame {
            jButton2.setForeground(Color.green); 
         }
         determineTurn();
+        jButton2.setEnabled(false);
         status();
     }//GEN-LAST:event_jButton2ActionPerformed
 
@@ -519,6 +534,7 @@ public class TicTacToeGUI extends javax.swing.JFrame {
            jButton3.setForeground(Color.green); 
         }
         determineTurn();
+        jButton3.setEnabled(false);
         status();
     }//GEN-LAST:event_jButton3ActionPerformed
 
@@ -531,6 +547,7 @@ public class TicTacToeGUI extends javax.swing.JFrame {
            jButton4.setForeground(Color.green); 
         }
         determineTurn();
+        jButton4.setEnabled(false);
         status();
     }//GEN-LAST:event_jButton4ActionPerformed
 
@@ -543,6 +560,7 @@ public class TicTacToeGUI extends javax.swing.JFrame {
            jButton5.setForeground(Color.green); 
         }
         determineTurn();
+        jButton5.setEnabled(false);
         status();
     }//GEN-LAST:event_jButton5ActionPerformed
 
@@ -555,6 +573,7 @@ public class TicTacToeGUI extends javax.swing.JFrame {
            jButton6.setForeground(Color.green); 
         }
         determineTurn();
+        jButton6.setEnabled(false);
         status();
     }//GEN-LAST:event_jButton6ActionPerformed
 
@@ -567,6 +586,7 @@ public class TicTacToeGUI extends javax.swing.JFrame {
            jButton7.setForeground(Color.green); 
         }
         determineTurn();
+        jButton7.setEnabled(false);
         status();
     }//GEN-LAST:event_jButton7ActionPerformed
 
@@ -579,6 +599,7 @@ public class TicTacToeGUI extends javax.swing.JFrame {
            jButton9.setForeground(Color.green); 
         }
         determineTurn();
+        jButton9.setEnabled(false);
         status();
     }//GEN-LAST:event_jButton9ActionPerformed
 
